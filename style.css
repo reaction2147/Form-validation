@@ -1,0 +1,33 @@
+form {
+    width: 200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+  
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+  
+    font-family: inherit;
+    font-size: 90%;
+  
+    box-sizing: border-box;
+  }
+
+  p {
+      display: block;
+  }
+
+  input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+  
